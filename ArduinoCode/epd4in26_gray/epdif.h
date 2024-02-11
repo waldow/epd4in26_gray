@@ -35,7 +35,14 @@
 #define DC_PIN          9
 #define CS_PIN          10
 #define BUSY_PIN        7
-#define PWR_PIN         6
+//#define PWR_PIN         6 //not use make sure power pin is 1
+
+// Pin definition for GDEQ0426T82 demo boards
+//#define RST_PIN         A15
+//#define DC_PIN          A16
+//#define CS_PIN          A17
+//#define BUSY_PIN        A14
+
 
 class EpdIf {
 public:
