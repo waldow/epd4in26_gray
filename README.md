@@ -1,5 +1,6 @@
 # epd4in26_gray
 Demo code to show grayscale for 4.26inch E-Paper from Waveshare and GDEQ0426T82
+including demo code using esp32 Arudino basesd using Seeed XIAO boards
 ![image](/images/20240206_233135.jpg "image") 
 
 ## Hardware setup 
@@ -9,6 +10,13 @@ Demo code to show grayscale for 4.26inch E-Paper from Waveshare and GDEQ0426T82
 #define DC_PIN          9
 #define CS_PIN          10
 #define BUSY_PIN        7
+```
+XIAO boards 
+```
+#define RST_PIN         D0
+#define DC_PIN          D3
+#define CS_PIN          D1
+#define BUSY_PIN        D5
 ```
 
 ## Color definition
